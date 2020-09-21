@@ -1,6 +1,5 @@
 import sys
 from PyQt5 import QtCore, QtWidgets
-
 from facerecog import (RecordVideo,
                        FaceDetectionWidget,
                        get_haarcascade_filepath)
@@ -56,7 +55,6 @@ class FaceSignalWidget(FaceDetectionWidget):
        self.update()
        # -----------------------------------------------------------------
 
-
 def main():
     # We need to make the QApplication before our QMainWindow
     # We also need to pass in our system argument values (sys.argv)
@@ -72,5 +70,6 @@ def main():
     app.exec()
 
 
+    
 if __name__ == '__main__':
     main()
