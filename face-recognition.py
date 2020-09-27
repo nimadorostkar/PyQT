@@ -1,9 +1,6 @@
 import cv2
 from PyQt5 import QtWidgets, QtCore
-
 from facerecog import get_haarcascade_filepath
-
-# TODO: fix API
 from facerecog.crop_face import CropFace
 
 
